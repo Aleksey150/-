@@ -1,0 +1,14 @@
+* {
+    outline: 1px solid orange;
+}
+
+main {
+    width: 375px;
+    height: 3540px;
+}
+
+header {
+    width: 335px;
+    margin-left: 20px;
+    border-bottom: 1px solid #afb4c4;
+}
