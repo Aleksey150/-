@@ -74,7 +74,6 @@
                 finalVersion = device.type;
             }
             
-            // Имя твоего сайта (ПОМЕНЯЙ ЗДЕСЬ!)
             const siteName = 'mysite';
             
             const isGitHubPages = window.location.hostname.includes('github.io');
@@ -83,7 +82,6 @@
             if (isGitHubPages) {
                 const pathParts = window.location.pathname.split('/');
                 if (pathParts.length > 2) {
-                    // Формат: /username/repo-name/
                     basePath = '/' + pathParts[1] + '/' + pathParts[2] + '/';
                 }
             }
@@ -109,14 +107,11 @@
             }, 0);
         }
         
-        // Очистка принудительной версии
         function clearForcedVersion() {
             localStorage.removeItem('forcedVersion');
         }
         
-        // Автозапуск при загрузке
         window.addEventListener('DOMContentLoaded', () => {
-            // Проверяем, не перешли ли мы уже с версией сайта
             const urlParams = new URLSearchParams(window.location.search);
             const force = urlParams.get('force');
             
