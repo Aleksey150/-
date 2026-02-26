@@ -46,6 +46,12 @@ header {
     color: #142251;
     width: 74px;
     font-family: 'Gilroy', arial;
+    transition: all 0.5s;
+}
+
+.naviglav:hover {
+    transform: scale(1.1);
+    color: #AFb4C4;
 }
 
 .navigonas {
@@ -53,6 +59,12 @@ header {
     width: 65px;
     margin-left: 32px;
     font-family: 'Gilroy', arial;
+    transition: all 0.5s;
+}
+
+.navigonas:hover {
+    transform: scale(1.1);
+    color: #AFb4C4;
 }
 
 .navigysl {
@@ -60,6 +72,12 @@ header {
     width: 59px;
     margin-left: 32px;
     font-family: 'Gilroy', arial;
+    transition: all 0.5s;
+}
+
+.navigysl:hover {
+    transform: scale(1.1);
+    color: #AFb4C4;
 }
 
 .navigkak {
@@ -67,6 +85,12 @@ header {
     width: 203px;
     margin-left: 32px;
     font-family: 'Gilroy', arial;
+    transition: all 0.5s;
+}
+
+.navigkak:hover {
+    transform: scale(1.1);
+    color: #AFb4C4;
 }
 
 .navigkon {
@@ -74,6 +98,12 @@ header {
     width: 85px;
     margin-left: 32px;
     font-family: 'Gilroy', arial;
+    transition: all 0.5s;
+}
+
+.navigkon:hover {
+    transform: scale(1.1);
+    color: #AFb4C4;
 }
 
 .zaiavka {
