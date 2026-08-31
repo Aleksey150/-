@@ -3,53 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Тренажер: Эпоха Петра I</title>
-    <style>
-        .grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 равные колонки */
-  grid-template-rows: repeat(5, 100px);  /* 5 рядов высотой 100px */
-  gap: 10px;                             /* Отступы между ячейками */
-  padding: 20px;
-  max-width: 800px;
-  margin: 0 auto;
-  height:400px;
-}
-
-.item {
-  background: #ffffff;
-  color: black;
-  font-size: 16px;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 8px;
-  padding: 20px;
-}
-        .grid-container{
-        background-image: url('772a7838aab20dd4937b41212857b67a.webp')
-        }
-    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Сетка парт 3x5</title>
 </head>
-<body>
-<div class="grid-container">
-  <!-- 15 ячеек (3 колонки × 5 рядов) -->
-  <div class="item">1</div>
-  <div class="item">2</div>
-  <div class="item">3</div>
-  <div class="item">4</div>
-  <div class="item">5</div>
-  <div class="item">6</div>
-  <div class="item">7</div>
-  <div class="item">8</div>
-  <div class="item">9</div>
-  <div class="item">10</div>
-  <div class="item">11</div>
-  <div class="item">12</div>
-  <div class="item">13</div>
-  <div class="item">14</div>
-  <div class="item">15</div>
-</div>
+<body class="p-10 bg-gray-100">
+
+    <!-- Основной контейнер сетки -->
+    <div class="grid grid-cols-3 grid-rows-5 gap-4 max-w-3xl mx-auto">
+        
+        <!-- 15 ячеек (парт) -->
+        <div class="bg-white border-2 border-gray-400 rounded-lg h-24 flex items-center justify-center text-gray-500 font-bold">1</div>
+        <div class="bg-white border-2 border-gray-400 rounded-lg h-24 flex items-center justify-center text-gray-500 font-bold">2</div>
+        <div class="bg-white border-2 border-gray-400 rounded-lg h-24 flex items-center justify-center text-gray-500 font-bold">3</div>
+        
+        <div class="bg-white border-2 border-gray-400 rounded-lg h-24 flex items-center justify-center text-gray-500 font-bold">4</div>
+        <div class="bg-white border-2 border-gray-400 rounded-lg h-24 flex items-center justify-center text-gray-500 font-bold">5</div>
+        <div class="bg-white border-2 border-gray-400 rounded-lg h-24 flex items-center justify-center text-gray-500 font-bold">6</div>
+        
+        <div class="bg-white border-2 border-gray-400 rounded-lg h-24 flex items-center justify-center text-gray-500 font-bold">7</div>
+        <div class="bg-white border-2 border-gray-400 rounded-lg h-24 flex items-center justify-center text-gray-500 font-bold">8</div>
+        <div class="bg-white border-2 border-gray-400 rounded-lg h-24 flex items-center justify-center text-gray-500 font-bold">9</div>
+        
+        <div class="bg-white border-2 border-gray-400 rounded-lg h-24 flex items-center justify-center text-gray-500 font-bold">10</div>
+        <div class="bg-white border-2 border-gray-400 rounded-lg h-24 flex items-center justify-center text-gray-500 font-bold">11</div>
+        <div class="bg-white border-2 border-gray-400 rounded-lg h-24 flex items-center justify-center text-gray-500 font-bold">12</div>
+        
+        <div class="bg-white border-2 border-gray-400 rounded-lg h-24 flex items-center justify-center text-gray-500 font-bold">13</div>
+        <div class="bg-white border-2 border-gray-400 rounded-lg h-24 flex items-center justify-center text-gray-500 font-bold">14</div>
+        <div class="bg-white border-2 border-gray-400 rounded-lg h-24 flex items-center justify-center text-gray-500 font-bold">15</div>
+
+    </div>
+
 </body>
 </html>
